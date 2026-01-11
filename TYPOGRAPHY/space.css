@@ -1,0 +1,39 @@
+body{
+    background-color:aquamarine;
+    font-family:initial;
+}
+h1{
+    color:blue
+}
+a{
+    color:orange
+}
+a:hover{
+    color:black
+}
+ul>li{
+    font-weight: bold;
+    color:rgb(0, 0, 0)
+}
+ul li::before{
+    content:"🚀"
+}
+a::after{
+    content:"🌌"
+}
+p::first-letter{
+    font-size: larger;
+    color:brown
+}
+ul li:nth-child(3){
+    background-color:green;
+}
+ul li:hover{
+    color:blue
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+h1+p{
+    padding:10px;
+}
